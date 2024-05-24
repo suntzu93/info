@@ -36,6 +36,8 @@ Network performance	 :   10 to 32 Gbps
 
 ```
 
+#### The data is based on operating the running nodes, and they are all synced to the chain head.
+
 ### Validator mainnet 
 
 `Based on the provided Grafana dashboards and metrics from my node_exporter, I have assessed whether my VPS can handle running a Celestia Validator.`
