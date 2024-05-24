@@ -31,11 +31,12 @@
 **Others**
 
 ```
-1. Enable Google Authenticator 2FA for all my services and accounts.
-2. I am always cautious with emails, always double-checking URLs and emails.
-3. I never download any files through email.
-4. Passwords used for crypto accounts are different from those used for regular services.
-5. Do not use cracked software or software from unknown sources.
-6. Do not interact with contracts before verifying, and do not approve more funds than needed.
+1. I'm running a redundant node can help ensure that if my validator node is compromised, another can continue to operate.
+2. Enable Google Authenticator 2FA for all my services and accounts.
+3. I am always cautious with emails, always double-checking URLs and emails.
+4. I never download any files through email.
+5. Passwords used for crypto accounts are different from those used for regular services.
+6. Do not use cracked software or software from unknown sources.
+7. Do not interact with contracts before verifying, and do not approve more funds than needed.
 
 ```
