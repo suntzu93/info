@@ -36,6 +36,10 @@ Alert
 
 ### Node health
 
+#### I have 2 channels to monitor the node health and notify me of any issues.
+
+`1. Use my script to monitor block height.`
+
 *Bridge node*
 
 `I'm using my script to monitor header.height of bridge node every minute. If the height doesn't increase within a minute or cannot request to endpoint, it will notify via telegram.`
@@ -53,9 +57,9 @@ Alert
 
 <img src="/images/validator_alert.png">
 
-*Grafana monitor and alert* 
-
 `2. I use the tool and dashboard provided by Chainnode (thanks to them) to monitor and alert.`
+
+*Grafana monitor and alert* 
 
 *[Code here](https://github.com/suntzu93/CelestiaTools)*
 
