@@ -38,23 +38,33 @@ Alert
 
 *Bridge node*
 
-`1. I'm using my script to monitor header.height of bridge node every minute. If the height doesn't increase within a minute, it will notify via telegram.`
+`I'm using my script to monitor header.height of bridge node every minute. If the height doesn't increase within a minute or cannot request to endpoint, it will notify via telegram.`
 
 *[Code here](https://github.com/suntzu93/system_monitor/blob/main/bridge_monitor.sh)*
 
-*Alert* 
+*Validator node*
+
+`I'm using my script to monitor latest_block_height of validator node every minute. If the height doesn't increase within a minute or cannot request to endpoint, it will notify via telegram.`
+
+*[Code here](https://github.com/suntzu93/system_monitor/blob/main/validator_monitor.sh)*
+
+
+*Grafana monitor and alert* 
 <img src="/images/bridge_node_alert.png">
 
 `2. I use the tool and dashboard provided by Chainnode (thanks to them) to monitor and alert.`
 
 *[Code here](https://github.com/suntzu93/CelestiaTools)*
 
+```
 For alerts, I monitor the parameters according to the following thresholds:
+
 1. Validator peers < 10 (cometbft_p2p_peers)
 2. Validator online < 90 (it must always be 100 to ensure quality, metric: cometbft_consensus_validators - cometbft_consensus_missing_validators)
 3. Validator block missing > 20 (cometbft_consensus_missing_validators)
 4. Bridge height > 5 (If the local bridge height is 5 blocks less than the network bridge height, metric: bridge_network_height{} - bridge_local_height{})```
 
+```
 
 <img src="/images/bridge_validator_monitor.png">
 
