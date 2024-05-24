@@ -42,6 +42,8 @@ Alert
 
 *[Code here](https://github.com/suntzu93/system_monitor/blob/main/bridge_monitor.sh)*
 
+<img src="/images/bridge_node_alert.png">
+
 *Validator node*
 
 `I'm using my script to monitor latest_block_height of validator node every minute. If the height doesn't increase within a minute or cannot request to endpoint, it will notify via telegram.`
@@ -49,8 +51,9 @@ Alert
 *[Code here](https://github.com/suntzu93/system_monitor/blob/main/validator_monitor.sh)*
 
 
+<img src="/images/validator_alert.png">
+
 *Grafana monitor and alert* 
-<img src="/images/bridge_node_alert.png">
 
 `2. I use the tool and dashboard provided by Chainnode (thanks to them) to monitor and alert.`
 
