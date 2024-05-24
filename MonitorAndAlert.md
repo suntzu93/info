@@ -4,12 +4,12 @@
 ### Server
 
 #### I have 3 channels to monitor the server and notify me of any issues.
-`1. I use Grafana to monitor and set notifications for CPU, Memory, and Disk space when they exceed the threshold of 85%. It will notify my Telegram.`
+`1. I use Grafana to monitor and set notifications for CPU, Memory, and Disk space when they exceed the threshold of 85%. It will notify via Telegram.`
 
 <img src="/images/grafana_cpu.png">
 
 
-`2. I use Google cloud and set notifications for CPU, Memory, and Disk space when they exceed the threshold of 85%. It will notify my email.`
+`2. I use Google cloud and set notifications for CPU, Memory, and Disk space when they exceed the threshold of 85%. It will notify via email.`
 
 Setup alert for cpu
 <img src="/images/google_cpu.png">
@@ -18,7 +18,7 @@ Alert
 <img src="/images/google_alert.png">
 
 
-`3. I have coded a bash script to monitor CPU, Memory, Disk space, and Network usage when they exceed the threshold of 85%. It will notify my Telegram.`
+`3. I'm using my script to monitor CPU, Memory, Disk space, and Network usage when they exceed the threshold of 85%. It will notify via Telegram.`
 
 *[Code here](https://github.com/suntzu93/system_monitor/blob/main/system_monitor.sh)*
 
@@ -38,7 +38,7 @@ Alert
 
 *Bridge node*
 
-`1. I'm using my script to monitor header.height of bridge node every minute. If the height doesn't increase within a minute, it will notify my telegram.`
+`1. I'm using my script to monitor header.height of bridge node every minute. If the height doesn't increase within a minute, it will notify via telegram.`
 
 *[Code here](https://github.com/suntzu93/system_monitor/blob/main/bridge_monitor.sh)*
 
