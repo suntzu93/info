@@ -7,6 +7,13 @@
 - **Memory**: 32 GB
 - **Network Performance**: 10 to 32 Gbps
 
+### Validator Mainnet - Backup server
+
+- **CPU(s)**: 16 cores AMD EPYC 7B13
+- **Local Storage**: 1TB Balanced persistent disk (IOPS ≥ 3000/s)
+- **Memory**: 32 GB
+- **Network Performance**: 10 to 32 Gbps
+
 ----------------------
 
 ### Validator Mocha 

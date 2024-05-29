@@ -23,7 +23,7 @@
 
 #### Others
 
-1. Running a redundant node helps ensure that if my validator node is compromised, another can continue to operate.
+1. Running a redundant node helps ensure that if my validator node is fails, another can continue to operate.
 2. Enable Google Authenticator 2FA for all my services and accounts.
 3. I am always cautious with emails, double-checking URLs and email addresses.
 4. I never download any files through email.
