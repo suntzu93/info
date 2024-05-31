@@ -11,9 +11,10 @@
 **Network Security**
 
 1. I enable the firewall on both my server and VPC Google Cloud firewall, only opening ports that I allow access to.
-2. I use SSH key authentication instead of passwords, and I have changed the default SSH port from 22 to another port and only allowing inbound SSH traffic from my IP addresses.
-3. I have disabled root login via SSH.
-4. I will enable Cloud IDS if chosen by the Celestia team to delegate in Cohort 2. Cloud IDS provides threat detection for intrusions, malware, spyware, and command-and-control attacks on my network.
+2. I'm using YubiKey-5 to authentication instead of passwords. 
+3. I have changed the default SSH port from 22 to another port and only allowing inbound SSH traffic from my IP addresses.
+4. I have disabled root login via SSH.
+5. I will enable Cloud IDS if chosen by the Celestia team to delegate in Cohort 2. Cloud IDS provides threat detection for intrusions, malware, spyware, and command-and-control attacks on my network.
 
 #### Private keys
 
